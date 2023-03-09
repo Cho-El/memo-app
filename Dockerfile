@@ -4,7 +4,7 @@ ADD requirements.txt .
 
 RUN pip install -r requirements.txt
 
-ADD templates templates
+ADD templates ./templates/
 
 ADD app.py .
 
