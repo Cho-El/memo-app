@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   flask:
-    image: yooncho/docker-memo:version2
+    image: yooncho/docker-memo:latest
     volumes:
       - ./templates:/templates
     ports:
